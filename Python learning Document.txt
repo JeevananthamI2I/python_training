@@ -1,0 +1,50 @@
+Python data types and in build data types
+Numeric Data types:
+  It has numeric value.it can be integer, float ,complex number.
+  1.integers- it contain +,-
+  2.float - it has decimal point ,+ ,-
+  3.Complex number- it has real part and imaginary part(2+3j)
+
+Sequence data types:
+  It is ordered collection of similar or diff python data types.
+  1.String
+      Strings are arrays of bytes representing Unicode characters. no charcter data type.
+      It can be created ',"",""". 
+      we can access individual character of a String using index.
+  2.List
+      It's just like arrays,declare in other lang,which orederd collection
+      it contains negative index is list end array(ex::-2 [1,2,3,4]  ans:::3)
+      *append(add item),insert(index, item),extend(add items in last)
+      *remove,pop(if not give index delete last item),clear
+      *index(If the element is not found, the index() method raises a ValueError.)(ex::index(x,start,end))
+      *count() -Returns the number of occurrences 
+      *modify/short -short(reverse=True or false)
+      *copy() -copy list
+      *len() -find the length of list (ex:: len(list_name) or list_name__len__()) 
+ 3.Tuble 
+      Its just like list also ordered collection of python objects.
+      diff:: tuble and list is tubles are immutable.cannot modified after is created
+      *count, index(x,start,end)
+      ex:: tuple_nam=(2,3,4,45)
+      ***use case tuble
+       1.dict={(x,y):10,(a,b):20} # because it is immutable
+       2.def extub(): return(1,2)  
+ 		      x,y=extub()
+ 		      print(x,y)
+
+Boolean data types:
+  it is have true or false
+
+Set data types:
+   It is unOrdered collection.
+   iteratable, mutable, no duplicate element
+   add,remove,clear,discard,update
+   ex::: set_name=set("ssdad"or["jee","dsda"]),set_name.add([]) #expect one argument
+   #remove can be throw error in value not exists in set
+   #discard can't be throw error in value not exists in set,value is exist it will removed
+
+Dictionary data types:
+   it has a collection of data values, used to store values like a map, unlike other python data type hold single value as an element.
+   values can be dublicated,key can't repeated must be immutable
+   *get(x,not found) error message will be throw not in dictionary
+
