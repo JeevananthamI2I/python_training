@@ -69,22 +69,13 @@ def insertList(list5,indexValue,element):
 #short list
 def shortList(list,reverse=False):
     list1=[]
-    list2=[]
+    # list2=[]
     for i in list:
         if i<i+1:
            print("list",list[1])
            list1=list1+[list[i]]
-    if reverse:
-       print("List",list1)
-       print("range",range(len(list1)))
-       for i in range(len(list1)):
-          if i>range(len(list1):
-           print("list",list1)
-           list2=list2+[list1[i]]
-           i--
-       return list2
-    print("shoettcd",list2)
-    return list2
+    print("shoettcd",list1)
+    return list1
             	   
             
         
