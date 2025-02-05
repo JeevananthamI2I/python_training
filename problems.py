@@ -35,3 +35,15 @@ print(two_sum(nums, target))  # Output: [0, 1]
 my_dict = {"name": "Alice", "age": 25}
 print(hash("name") % 8)  # Hash value mod table size
 print(hash("age") % 8) 
+
+# Input: l1 = [2,4,3], l2 = [5,6,4]
+# Output: [7,0,8]
+# Explanation: 342 + 465 = 807.
+def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) :
+    l1=[2,4,3]
+    l2=[5,6,4]
+    str1=""
+    l3=[str1+i for i in range(len(l1) if len(l1)!=0]
+    
+
+    
