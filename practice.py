@@ -81,39 +81,6 @@ def num_of_str():
     list2={count+1 for i in list1 if(i[0]==i[-1] and len(i)>=2)}   
     print("list2",list2)   
 
-#postionall arquement and keyword arquement
-def count_string():
-    def count_str(*args,**kwargs):
-        print("args",args)
-        print("kwargs",kwargs)
-    count_str(1,2,3,4,5,6,7,8,9,10,name="jeeva",age=25,place="chennai")
-
-def outer():
-    print("Outer function")
-
-    def inner():
-        print("Inner function")
-
-    # inner()  # Call the inner function
-
-#anonymouns function
-add = lambda x,y:x+y
-print("anonymous",add(2,3))
-
-#generator
-def gen():
-    gen=(i for i in range(20))
-    print("generator",next(gen))
-    print("generator",next(gen))
-    print("generator",next(gen))
-
-#recursion
-def recurse_fun(n):
-    if n==10:
-        return n*n,n
-    else:
-        return recurse_fun(n+1)
-
 #map
 def square_map():
     list1=[2,3,4,5,6,7]
@@ -127,7 +94,7 @@ def join_map():
     list1=['a','b','c','d']
     list2=[1,2,3,4,5]
     list3=list(zip(list1,list2))
-    print(list3)
+    print("zip:::",list3)
 
 
 #filter
@@ -153,26 +120,23 @@ def id_fun():
     y=5
     print(x is y)
     print("id",id(x),id(y))
-gen()
-recurse_fun(1)
-print("recurse fun",recurse_fun(1))
-# #dictionary
-# print(count_str())
-# create_dict()
-# numbers()
-# swap_keys()
-# merge_list()
-# count_string()
-# #set 
-# remove_duplicate()
-# test_set()
-# nested_dict()
-# generator_fun()
-# print("num_of_str",num_of_str())
 
-# #python function
-# count_string()
-# outer()
+#dictionary
+print(count_str())
+create_dict()
+numbers()
+swap_keys()
+merge_list()
+count_string()
+#set 
+remove_duplicate()
+test_set()
+nested_dict()
+generator_fun()
+print("num_of_str",num_of_str())
+
+#python function
+count_string()
 square_map()
 join_map()
 filter_even()

@@ -11,7 +11,7 @@ def list_test1():
 def create_dict():
     list1=[1,2,3,4,5,7,8]
     sample_dict={i:i*2 for i in range(9)}
-    print(sample_dict)
+    print("sample_dict",sample_dict)
 
 # Using if-else in Dictionary Comprehension
 def numbers():

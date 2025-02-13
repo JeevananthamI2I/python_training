@@ -1,0 +1,15 @@
+Python is a high-level programming language that is used to build websites, software, and more. It is easy to learn, efficient, and can run on many platforms. 
+Features
+Syntax: Python's syntax is designed to make code readable and concise. 
+Operators: Python uses the same symbols for arithmetic operators as math, such as +, -, *, and /. 
+Functions: To define a function in Python, you use the keyword def, followed by the function name, parameters, and statements. 
+Comments: Comments are lines in the code that are ignored by the interpreter. 
+Uses
+Python is used in web applications, software development, data science, and machine learning. 
+Python is a general-purpose language, meaning it is not specialized for any specific problems. 
+History 
+Guido van Rossum created Python in 1991.
+The Python Software Foundation further developed Python.
+Getting started 
+The first program that you learn when you start learning Python is "Hello, World!".
+You can learn how to install and set up Python on your system.
