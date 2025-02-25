@@ -9,7 +9,7 @@ def info(name, age, city):
 greet("jeeva", 25) 
 greet(age=25, name="jeeva")
 
-info(name="Bob", age=30, city="Guindy")
+info(name="jeeva", age=25, city="Guindy")
 
 #args
 def add_numbers(*args):

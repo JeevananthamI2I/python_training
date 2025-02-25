@@ -1,14 +1,28 @@
 #Decorators
+def my_decorator(func):
+    def wrapper():
+        print("Before function execution")
+        func() 
+        print("After function execution")
+    return wrapper
 
-def my_dec(func):
-    def sum_of_num(a,b):
-        if b > a:
-            a,b = b,a
-            return a,b
-    return sum_of_num
-@my_dec
-def subract_num(a,b):
-    return a-b
-#sub_num = my_dec(subract_num)
+@my_decorator  # Applying the decorator
+def say_hello():
+    print("Hello, World!")
 
-print(subract_num(5,6))
+say_hello()
+
+class find_odd:
+    def __init__(self, func):
+        self.func = func
+
+    def __call__(self, *args, **kwargs):
+        result = self.func(*args, **kwargs)
+        print(f"Result: {result}")
+        return result*2
+    
+@find_odd
+def get_number(a,b):
+    return a+b
+
+print(get_number(1,2))
