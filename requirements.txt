@@ -1,0 +1,42 @@
+# Django and REST Framework
+Django==5.2.4
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.0
+
+# Database
+psycopg2-binary==2.9.10
+
+# Configuration and Environment
+python-decouple==3.8
+
+# API Documentation
+drf-spectacular==0.28.0
+PyYAML==6.0.2
+
+# Testing
+pytest==8.4.1
+pytest-django==4.11.1
+
+# Data Validation and Serialization
+pydantic==2.10.4
+
+# Filtering and Search
+django-filter==24.1
+
+# CORS Support
+django-cors-headers==4.6.0
+
+# Development Tools
+django-extensions==3.2.3
+
+# HTTP Client for Testing
+requests==2.32.3
+
+# Date and Time Handling
+python-dateutil==2.9.0
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Package Management
+setuptools>=68.0.0 
